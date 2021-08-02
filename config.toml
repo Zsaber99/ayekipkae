@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+
+[Params.logo]
+  image = "img/gbc-logo.png" # Logo image. Path relative to "static"
+  title = "บริษัท วาส ซัพพลายเออร์ จำกัด" # Logo title, otherwise will use site title
+  
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist"]
