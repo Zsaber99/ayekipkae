@@ -1,0 +1,3 @@
+{{- if .Site.Author.name -}}
+{{ partial "svg/author.svg" (dict "class" "meta__icon") -}} {{ .Site.Author.name }}
+{{- end -}}
